@@ -1,21 +1,33 @@
-.Menu {
-    position: fixed;
-    width: 280px;
-    max-width: 70%;
+.icon {
+    filter: invert(0%);
+    height: 30px;
+    width: 30px;
+}
+
+.iconActive {
+    filter: invert(100%);
+    height: 30px;
+    width: 30px;
+}
+
+.drawerActive {
+    display: flex;
+    background: #058B8C;
     height: 100%;
-    left: 0;
-    top: 0;
-    z-index: 200;
-    background-color: #058B8C;
-    padding: 32px 16px;
-    box-sizing: border-box;
-    transition: transform 0.3s ease-out;
+    width: 60%;
 }
 
-.Open  {
-    transform: translateX(0);
+.drawerInactive {
+    display:none
 }
 
-.Close {
-    transform: translateX(-100%);
+li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 36;
+}
+
+li {
+    padding: 14px;
 }

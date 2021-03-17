@@ -1,8 +1,12 @@
-import Menu from '../../Elements/Menu/Menu'
+import Navbar from '../../Elements/Navbar/Navbar'
 
 function Missions () {
     return (
-        <Menu />
+        <> 
+            <Navbar />
+            <p>hi</p>
+        </>
+        
     );
 };
 

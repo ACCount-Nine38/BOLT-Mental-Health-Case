@@ -1,6 +1,6 @@
 import Navbar from '../../Elements/Navbar/Navbar'
 
-function Missions () {
+function Enrolled () {
     return (
         <> 
             <Navbar />
@@ -9,4 +9,4 @@ function Missions () {
     );
 };
 
-export default Missions;
+export default Enrolled;

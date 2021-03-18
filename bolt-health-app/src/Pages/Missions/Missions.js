@@ -2,7 +2,6 @@ import {useState} from 'react'
 import {Link} from 'react-router-dom'
 import './Missions.css'
 
-import Navbar from '../../Elements/Navbar/Navbar'
 import ProgressBar from '../../Elements/Banner/ProgressBar/ProgressBar'
 import Updates from '../../Elements/Banner/Updates/Updates'
 import MissionBanner from '../../Elements/Banner/MissionBanner/MissionBanner'
@@ -15,7 +14,6 @@ function Missions () {
 
     return (
         <> 
-            <Navbar />
             <ProgressBar points={points} />
             <Link to='/enrolled'>
                 <Updates />

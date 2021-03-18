@@ -1,4 +1,7 @@
 import { Route } from 'react-router-dom';
+import './Display.css'
+
+import NavBar from '../Elements/Navbar/Navbar'
 
 import Login from '../Pages/Login/Login';
 import Missions from '../Pages/Missions/Missions'
@@ -11,13 +14,15 @@ import Premium from '../Pages/Premium/Premium'
 export function Display () {
     return (
         <div>
+            <div className='header' />
             <Route path="/" exact render={() => <Login />} />
-            <Route path="/missions" exact render={() => <Missions />} />
-            <Route path="/enrolled" exact render={() => <Enrolled />} />
-            <Route path="/connect" exact render={() => <Connect />} />
-            <Route path="/premium" exact render={() => <Premium />} />
-            <Route path="/enrolled/course" exact render={() => <Course />} />
-            <Route path="/enrolled/chat" exact render={() => <Chat />} />
+            <Route path="/missions" exact render={() => <><Missions /><NavBar /></>} />
+            <Route path="/enrolled" exact render={() => <><Enrolled /><NavBar /></>} />
+            <Route path="/connect" exact render={() => <><Connect /><NavBar /></>} />
+            <Route path="/premium" exact render={() => <><Premium /><NavBar /></>} />
+            <Route path="/enrolled/course" exact render={() => <><Course /><NavBar /></>} />
+            <Route path="/enrolled/chat" exact render={() => <><Chat /><NavBar /></>} />
+            
         </div>
     );
 };

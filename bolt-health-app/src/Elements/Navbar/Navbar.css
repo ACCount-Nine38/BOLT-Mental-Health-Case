@@ -82,6 +82,9 @@
 }
 
 .pad {
+    position: absolute;
+    top: 7px;
+    left: 7px;
     height: 80px;
     display: flex;
     justify-content: flex-start;

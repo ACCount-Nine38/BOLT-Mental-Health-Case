@@ -24,10 +24,14 @@ function Missions () {
             <Link to='/missions/add' className='taskAdd'>
                 <CgIcons.CgAdd className='addButton' />
             </Link>
-            <MissionBanner title='Go on a nature walk' value='10' fun={missionComplete} 
-                desciption='Reconnecting with nature and seeing green is a proven way to reduce stress!' />
-            <MissionBanner title='Meditate' value='10' fun={missionComplete} 
-                desciption='Meditation facts' />
+            <div>
+                <h3 className='missionSource'>Personal</h3>
+                <MissionBanner title='Go on a nature walk' value='10' fun={missionComplete} 
+                    desciption='Reconnecting with nature and seeing green is a proven way to reduce stress!' />
+                <MissionBanner title='Meditate' value='10' fun={missionComplete} 
+                    desciption='Meditation facts' />
+                
+            </div>
         </>
         
     );

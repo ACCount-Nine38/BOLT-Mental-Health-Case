@@ -17,7 +17,7 @@ const MissionBanner = (props) => {
             </div>
             {expanded ? 
             <div className='missionExpand'>
-                <p>{props.desciption}</p>
+                <p className='description'>{props.desciption}</p>
                 <div className='ButtonPrimary missionComplete' onClick={props.fun}>Finish!</div>
             </div> : null}
         </>

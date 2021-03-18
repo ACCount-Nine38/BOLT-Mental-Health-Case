@@ -16,13 +16,21 @@ h1 {
 
 .taskAdd {
     position: fixed;
-    bottom: 35px;
-    right: 25px;
+    bottom: 45px;
+    right: 35px;
 }
 
 .addButton {
-    color: black;
+    color: grey;
     
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
+}
+
+.missionSource {
+    padding-top: 7px;
+    padding-left: 20px;
+    color: #C4C4C4;
+    position: relative;
+    top: 7px;
 }

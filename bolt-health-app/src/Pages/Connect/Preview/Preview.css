@@ -1,0 +1,16 @@
+.preview {
+    background-image: url("Course Preview.png");
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.enrollButton {
+    position: absolute;
+    left: 32%;
+    top: 819px;
+    font-size: 40px;
+    padding: 8px;
+}

@@ -23,3 +23,9 @@
     font-size: 36px;
     margin: 14px;
 }
+
+.description {
+    width: 350px;
+    padding-top: 10px;
+    padding-left: 10px;
+}

@@ -1,0 +1,50 @@
+.card {
+    margin: 14px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 394px;
+    height: 392px;
+}
+
+.real {
+    background-image: url("./Cards/real.png");
+}
+
+.fake1 {
+    background-image: url("./Cards/fake1.png");
+}
+
+.fake2 {
+    background-image: url("./Cards/fake2.png");
+}
+
+.fake3 {
+    background-image: url("./Cards/fake3.png");    
+}
+
+.search {
+    position: absolute;
+    width: 323px;
+    height: 44px;
+    left: 77px;
+    top: 24px;
+
+    background: #FFFFFF;
+    border: 3px solid #058B8C;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.search span{
+    position: relative;
+width: 43px;
+height: 16px;
+left: 20px;
+top: 10px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 16px;
+
+color: #A3A3A3;
+}

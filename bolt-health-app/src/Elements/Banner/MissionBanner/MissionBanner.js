@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import '../Banner.css'
 import './MissionBanner.css'
 import '../Updates/Updates.css'
+import '../../Button/button.css'
 
 import * as GrIcons from 'react-icons/gr'
 import * as AiIcons from 'react-icons/ai'
@@ -15,8 +16,9 @@ const MissionBanner = (props) => {
                 <span className='missionHead'>{props.title}{expanded ? <AiIcons.AiOutlineMinus className='icon' /> : <GrIcons.GrFormAdd className='icon' />}<span className='missionPoints'>{props.value}pts</span></span>
             </div>
             {expanded ? 
-            <div>
-                <button onClick={props.fun}>hello</button>
+            <div className='missionExpand'>
+                <p>{props.desciption}</p>
+                <div className='ButtonPrimary missionComplete' onClick={props.fun}>Finish!</div>
             </div> : null}
         </>
     )

@@ -5,3 +5,21 @@
 .missionPoints {
     float: right;
 }
+
+.missionExpand {
+    position: relative;
+    left: 21px;
+    width: 370px;
+    height: 152px;
+
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+.missionComplete {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 36px;
+    margin: 14px;
+}

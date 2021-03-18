@@ -1,45 +1,37 @@
-a.ButtonPrimary {
+.ButtonPrimary {
     background-color: #058B8C;
-    position: absolute;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     width: 132px;
     height: 64px;
-    left: 227px;
-    top: 471px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     padding-top: 15px;
     border-radius: 10px;
     
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 36px;
     font-family: 'Cabin', sans-serif;
 }
 
-a.ButtonSecondary {
+.ButtonSecondary {
     background-color: white;
-    position: absolute;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     width: 132px;
     height: 64px;
-    left: 227px;
-    top: 471px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     padding-top: 15px;
     border-radius: 10px;
     
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 36px;
     font-family: 'Cabin', sans-serif;
 }
 
-a.ButtonPrimary:active {
+.ButtonPrimary:active {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0));
     transform: translateY(2px);
 }
 
-a.ButtonSecondary:active {
+.ButtonSecondary:active {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0));
     transform: translateY(2px);
 }

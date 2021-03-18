@@ -1,0 +1,18 @@
+.stat {
+    display: block;
+    font-size: 18px;
+    color: #058B8C;
+    display: block;
+}
+
+.remainder {
+    background-color: #C4C4C4;
+    height: 11px;
+    width: 362px;
+}
+
+.current {
+    background-color: #058B8C;
+    height: 11px;
+    width: 362px;
+}

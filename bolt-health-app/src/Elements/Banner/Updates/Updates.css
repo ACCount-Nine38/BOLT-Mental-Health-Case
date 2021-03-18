@@ -1,0 +1,17 @@
+.update {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: #058B8C;
+    display: block;
+}
+
+.extra {
+    padding: 16px 10px 10px 10px;
+}
+
+.icon {
+    width: 30px;
+    height: 25px;
+    float: right;
+}

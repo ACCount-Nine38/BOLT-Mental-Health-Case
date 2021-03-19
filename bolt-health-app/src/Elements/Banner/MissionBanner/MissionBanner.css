@@ -10,10 +10,13 @@
     position: relative;
     left: 21px;
     width: 370px;
-    height: 152px;
+    min-height: 152px;
 
     background: #C4C4C4;
     border-radius: 10px;
+    justify-content: center;
+    overflow: auto;
+    filter: drop-shadow(0, 4px, 4px, rgb(0, 0, 0, 0.25));
 }
 
 .missionComplete {
@@ -28,4 +31,5 @@
     width: 350px;
     padding-top: 10px;
     padding-left: 10px;
+    margin-bottom: 100px;
 }

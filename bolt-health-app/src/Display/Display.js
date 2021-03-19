@@ -8,7 +8,6 @@ import Login from '../Pages/Login/Login';
 import Missions from '../Pages/Missions/Missions'
 import Connect from '../Pages/Connect/Connect'
 import Preview from '../Pages/Connect/Preview/Preview'
-import Chat from '../Pages/Course/Chat/Chat'
 import Calendar from '../Pages/Course/Chat/Calendar'
 import Course from '../Pages/Course/Main/Course'
 import Enrolled from '../Pages/Enrolled/Enrolled'

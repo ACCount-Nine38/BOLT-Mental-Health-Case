@@ -14,13 +14,10 @@ h1 {
     margin: 14px 0 0 0;
 }
 
-.taskAdd {
+.taskAddButton {
     position: fixed;
     bottom: 45px;
     right: 35px;
-}
-
-.addButton {
     color: grey;
     
     height: 90px;
@@ -33,4 +30,131 @@ h1 {
     color: #C4C4C4;
     position: relative;
     top: 7px;
+}
+
+.missionList{
+    margin-bottom: 200px;
+}
+
+.addPage {
+    position: fixed;
+    display: hidden;
+    bottom: 0;
+    right: -100%;
+    width: 83vw;
+    height: 90vh;
+    border-radius: 10px;
+    background-color: #058B8C;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: ease-in 0.2s;
+}
+
+.addPage.active {
+    right: 0;
+    transition: ease-in 0.2s;
+}
+
+.addMissionButton {
+    color: #058B8C;
+    font-size: 30px;
+    position: absolute;
+    bottom: 100px;
+    right: 30px;
+}
+
+.cancelMissionButton {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    bottom: 100px;
+    left: 14px;
+}
+
+.missionAddTitle {
+    position: relative;
+    left: 14px;
+    margin-bottom: 14px;
+    font-size: 20px;
+    height: 50px;
+    width: 292px;
+    color: black;
+    
+    border: none;
+    border-radius: 10px;
+    padding-left: 14px;
+    resize: none;
+    outline-style: none;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.missionAddTitle::placeholder {
+    color: #A3A3A3;
+}
+
+.missionAddDescription {
+    position: relative;
+    left: 14px;
+    margin-bottom: 14px;
+    font-size: 20px;
+    height: 300px;
+    width: 292px;
+    color: black;
+    
+    border: none;
+    border-radius: 10px;
+    padding-left: 14px;
+    resize: none;
+    outline-style: none;
+    align-items: flex-start;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.missionAddDescription::placeholder {
+    color: #A3A3A3;
+}
+
+.slidecontainer {
+    position: relative;
+    left: 14px;
+    width: 90%;
+  }
+  
+.slider {
+    -webkit-appearance: none;
+    position: relative;
+    left: 14px;
+    width: 80%;
+    height: 15px;
+    border-radius: 10px;
+    background: #A3A3A3;
+    outline: none;
+    opacity: 1;
+    -webkit-transition: .2s;
+}
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #058B8C;
+    cursor: pointer;
+}
+
+.missionAddCycle {
+    position: relative;
+    margin-left: 14px;
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+    outline: none;
+    border-color: white;
+    border-radius: 10px;
 }

@@ -1,0 +1,167 @@
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #058B8C;
+    text-align: center;
+  }
+  
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .month ul li {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .month .prev {
+    float: left;
+    padding-top: 10px;
+  }
+  
+  .month .next {
+    float: right;
+    padding-top: 10px;
+  }
+  
+  .weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: rgb(204, 204, 204);
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+  }
+  
+  .days {
+    padding: 10px 0;
+    background: #ebebeb;
+    margin: 0;
+  }
+  
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 28px;
+    font-size:18px;
+    color: #777;
+  }
+  
+  .days li .active {
+    padding: 5px;
+    background: #058B8C;
+    color: white !important
+  }
+
+  .days li .disabled {
+    color: #c4c4c4;
+  }
+
+  .calendarHead {
+      position: relative;
+      left: 50px;
+  }
+
+  .calendar{
+      position: relative;
+      width: 386px;
+      left: 16px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .chatBack {
+      background-image: url("Chat\ \(2\).png");
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+  }
+
+  .arrange {
+    position: fixed;
+    display: hidden;
+    bottom: 0;
+    right: -100%;
+    width: 90vw;
+    height: 90vh;
+    background-color: #058B8C;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: ease-in 0.2s;
+  }
+
+  .arrange.active {
+    right: 0;
+    transition: ease-in 0.2s;
+  }
+
+  .closeIcon {
+      position: absolute;
+      left: 7px;
+      top: 7px;
+      filter: invert(100%);
+      width: 60px;
+      height: 60px;
+  }
+
+  .confirmButton {
+      color: #058B8C;
+      font-size: 30px;
+      position: absolute;
+      bottom: 200px;
+      right: 100px;
+  }
+
+  .cancelButton {
+      color: white;
+      font-size: 30px;
+      position: absolute;
+      bottom: 200px;
+      left: 14px;
+  }
+
+  .appointmentTextSmall {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+  }
+
+  .appointmentTextBig {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+}
+
+hr.line {
+    margin: 7px;
+    width: 200px;
+}
+
+.appointmentInput {
+    position: relative;
+    left: 20px;
+    border-radius: 10px;
+    border-style: 1px solid white;
+}
+
+input[type="time"] {
+    border: none;
+    color: black;
+    font-size: 14px;
+    padding-left: 10px;
+    outline-style: none;
+}

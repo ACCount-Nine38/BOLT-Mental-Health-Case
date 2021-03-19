@@ -9,6 +9,7 @@ import Missions from '../Pages/Missions/Missions'
 import Connect from '../Pages/Connect/Connect'
 import Preview from '../Pages/Connect/Preview/Preview'
 import Chat from '../Pages/Course/Chat/Chat'
+import Calendar from '../Pages/Course/Chat/Calendar'
 import Course from '../Pages/Course/Main/Course'
 import Enrolled from '../Pages/Enrolled/Enrolled'
 import Premium from '../Pages/Premium/Premium'
@@ -26,7 +27,7 @@ export function Display () {
             <Route path="/connect/preview" exact render={() => <><Preview changeStage={newEnrolled} /><NavBar /></>} />
             <Route path="/premium" exact render={() => <><Premium /><NavBar /></>} />
             <Route path="/course/main" exact render={() => <><Course /><NavBar /></>} />
-            <Route path="/course/chat" exact render={() => <><Chat /><NavBar /></>} />
+            <Route path="/course/chat" exact render={() => <><Calendar /><NavBar /></>} />
             
         </div>
     );

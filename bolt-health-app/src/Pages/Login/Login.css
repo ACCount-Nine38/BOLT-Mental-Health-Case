@@ -11,3 +11,41 @@
     top: 471px;
     font-size: 36px;
 }
+
+.loginBack {
+    background-image: url("Login.png");
+    display:flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.fakeInputs {
+    margin-bottom: 14px;
+    font-size: 20px;
+    height: 50px;
+    width: 292px;
+    color: black;
+    
+    border: none;
+    border-radius: 10px;
+    padding-left: 14px;
+    resize: none;
+    outline-style: none;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.fakeInputs::placeholder {
+    color: #A3A3A3;
+}
+
+.fakeFieldBox {
+    position: absolute;
+    top: 333px;
+    left: 61px;
+}

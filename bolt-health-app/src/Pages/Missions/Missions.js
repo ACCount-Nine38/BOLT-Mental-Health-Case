@@ -72,15 +72,15 @@ function Missions () {
                 <br />
                 <span className='appointmentTextSmall'>Task</span> <br />
                 <hr className='line'/>
-                <input type="text" className='missionAddTitle' />
+                <input type="text" className='missionAddTitle' /> <br />
                 <span className='appointmentTextSmall'>Description</span> <br />
                 <hr className='line'/>
                 <textarea className='missionAddDescription' />
                 <br />
-                
+                <br />
                 <div className='slidercontainer'>
                     <span className='appointmentTextSmall'>Points for Completion: </span>
-                    <span id='slideValue' className='appointmentTextSmall'></span> <br />
+                    <span id='slideValue' className='appointmentTextSmall'></span> <br /> <br />
                     <input type="range" className='slider' min='1' max='10' id='slidePoints' />
                 </div>
                 <br />

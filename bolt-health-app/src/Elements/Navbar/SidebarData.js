@@ -25,7 +25,7 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: 'Premium',
+        title: 'Subscribe',
         path: '/premium',
         icon: <BsIcons.BsFillStarFill className='icons invert' />,
         cName: 'nav-text'

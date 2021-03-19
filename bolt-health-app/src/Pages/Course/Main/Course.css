@@ -1,6 +1,6 @@
 .coursePage {
-    background-image: url("Course (1).png");
-    height: 100vh;
+    background-image: url("Course (2).png");
+    height: 1000px;
     width: 100vw;
     position: absolute;
     top: 0;
@@ -11,4 +11,52 @@
     position: relative;
     top: 30px;
     left: 20px;
+}
+
+.leavePrimary {
+    font-size: 30px;
+    color: #a4a4a4;
+
+}
+
+.leaveSecondary {
+    font-size: 30px;
+    color: white;
+}
+
+.cancelPrompt {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+    color: white;
+    position: absolute;
+}
+
+.cancelConfirmCard {
+    position: fixed;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    filter: drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
+    bottom: 0;
+    left: 6px;
+    background-color: #c4c4c4;
+}
+
+.button1 {
+    position: absolute;
+    bottom: -100px;
+    left: 140px;
+}
+
+.button2 {
+    position: fixed;
+    bottom: 14px;
+    left: 20px;
+}
+
+.button3 {
+    position: fixed;
+    bottom: 14px;
+    right: 20px;
 }

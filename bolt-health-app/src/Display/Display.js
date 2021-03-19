@@ -17,16 +17,17 @@ import Premium from '../Pages/Premium/Premium'
 export function Display () {
     const [stage2, setstage2] = useState(false);
     const newEnrolled = () => setstage2(true);
+    const unEnrolled = () => setstage2(false);
     return (
         <div>
             <div className='header' />
             <Route path="/" exact render={() => <Login />} />
-            <Route path="/missions" exact render={() => <><Missions stage2={stage2} /><NavBar /></>} />
+            <Route path="/missions" exact render={() => <><Missions /><NavBar /></>} />
             <Route path="/enrolled" exact render={() => <><Enrolled stage2={stage2} /><NavBar /></>} />
             <Route path="/connect" exact render={() => <><Connect stage2={stage2} /><NavBar /></>} />
             <Route path="/connect/preview" exact render={() => <><Preview changeStage={newEnrolled} /><NavBar /></>} />
             <Route path="/premium" exact render={() => <><Premium /><NavBar /></>} />
-            <Route path="/course/main" exact render={() => <><Course /><NavBar /></>} />
+            <Route path="/course/main" exact render={() => <><Course changeStage={unEnrolled}/><NavBar /></>} />
             <Route path="/course/chat" exact render={() => <><Calendar /><NavBar /></>} />
             
         </div>

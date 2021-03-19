@@ -1,0 +1,43 @@
+.chatPage {
+    background-image: url("Chat (2).png");
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.chatField {
+    position: absolute;
+    bottom: 16px;
+    left: 12px;
+    font-size: 20px;
+    height: 50px;
+    width: 340px;
+    color: black;
+    border: 3px solid #058B8C;
+    border-radius: 10px;
+    padding-left: 14px;
+    resize: none;
+    outline-style: none;
+}
+
+.send {
+    position: absolute;
+    bottom: 24px;
+    right: 20px;
+    height: 35px;
+    width: 35px;
+    color: #058B8C;
+}
+
+.chatBox {
+    position: absolute;
+    bottom: 100px;
+    right: 30px;
+    font-size: 24px;
+    background-color: #C4C4C4;
+    border-radius: 10px 10px 0px 10px;
+    padding: 5px 10px;
+    max-width: 60%;
+}
